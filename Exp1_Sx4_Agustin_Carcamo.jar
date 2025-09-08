@@ -1,0 +1,125 @@
+package com.mycompany.proyectocinemoro;
+
+import java.util.Scanner;
+
+public class ProyectoCineMoro {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int seleccionMenu = 0;
+        int respuesta=0;
+        while (seleccionMenu != 2) {
+            // Bienvenida de menu------------------------------------------------------------------
+            System.out.println("Bienvenido al teatro Moro, porfavor selecione que desea: ");
+            System.out.println("1- Comprar entrada");
+            System.out.println("2- Salir");
+            System.out.print("Seleccione una opción: ");
+            seleccionMenu = sc.nextInt();
+            sc.nextLine();
+
+            if (seleccionMenu == 1) {
+                char fila = ' ';
+                int columna = 0;
+                int edad = 0;
+                int valorEntrada = 15000;
+                int descuento = 0;
+                int precioFinal=0;
+                
+                System.out.println("La entrada general vale 15.000, porfavor, seleccione el asiento que desea");
+
+                // Mapa de asientos----------------------------------------------------------------
+                System.out.println("A   [1][2][3][4]  [5][6][7][8][9][10][11][12][13][14]  [15][16][17][18]");
+                System.out.println("B   [1][2][3][4]  [5][6][7][8][9][10][11][12][13][14]  [15][16][17][18]");
+                System.out.println("C   [1][2][3][4]  [5][6][7][8][9][10][11][12][13][14]  [15][16][17][18]");
+                System.out.println("D   [1][2][3][4]  [5][6][7][8][9][10][11][12][13][14]  [15][16][17][18]");
+                System.out.println("E   [1][2][3][4]  [5][6][7][8][9][10][11][12][13][14]  [15][16][17][18]");
+                System.out.println("F   [1][2][3][4]  [5][6][7][8][9][10][11][12][13][14]  [15][16][17][18]");
+                System.out.println("G   [1][2][3][4]  [5][6][7][8][9][10][11][12][13][14]  [15][16][17][18]");
+                System.out.println("H   [1][2][3][4]  [5][6][7][8][9][10][11][12][13][14]  [15][16][17][18]");
+                System.out.println("I   [1][2][3][4]  [5][6][7][8][9][10][11][12][13][14]  [15][16][17][18]");
+
+                // Seleccion de asiento-------------------------------------------------------------
+                while (fila < 'A' || fila > 'I') {
+                    System.out.println("Seleccione su fila, A-B-C-D-E-F-G-H-I");
+                    fila = sc.nextLine().toUpperCase().charAt(0);
+                    if (fila < 'A' || fila > 'I') {
+                        System.out.println("Opción inválida, intente nuevamente.");
+                    }
+                }
+                while (columna < 1 || columna > 18) {
+                    System.out.println("Seleccione su columna porfavor, de la 1 a la 18");
+                    columna = sc.nextInt();
+                    sc.nextLine();
+                    System.out.println("Usted tiene el asiento " + fila + columna);
+
+                    if (columna < 1 || columna > 18) {
+                        System.out.println("opcion invalida, intente nuevamente");
+                    }
+                }
+
+                // seleccion y validacion de edad ------------------------------------------------------
+                while (edad < 1 || edad > 116) {
+                    System.out.println("Ingrese su edad por favor:");
+                    edad = sc.nextInt();
+
+                    if (edad < 1 || edad > 116) {
+                        System.out.println("Debe ingresar información válida, inténtelo de nuevo");
+                    } else if (edad < 18) {
+                        System.out.println("Se ha seleccionado como usuario estudiante");
+                        descuento = 10;
+                    } else if (edad < 60) {
+                        System.out.println("Se ha seleccionado como usuario general");
+                        descuento = 0;
+                    } else {
+                        System.out.println("Se ha seleccionado como usuario de la tercera edad");
+                        descuento = 15;
+                    }
+                }
+                
+                //calculo de entrada
+                precioFinal = valorEntrada - (valorEntrada * descuento / 100);
+                
+                // resumen de la compra
+                System.out.println("Usted ha seleccionado el asiento " + fila + columna);
+                if (descuento == 10) { //estudiante
+                    System.out.println("El precio original es de $" + valorEntrada);
+                    System.out.println("Gracias a su estado de estudiante, se le otorga " + descuento + "% de descuento");
+                    System.out.println("Su total es de: $"+precioFinal);    
+                } 
+                
+                
+                else if (descuento == 15) { //tercera edad
+                    System.out.println("El precio original es de $" + valorEntrada);
+                    System.out.println("Gracias a su estado de tercera edad, se le otorga " + descuento + "% de descuento");
+                    System.out.println("Su total es de: $"+precioFinal);
+                } 
+                
+                
+                else {//general
+                    System.out.println("su total es de $" + valorEntrada);
+                }
+
+            System.out.println("¿desea realizar otra compra? ");
+            System.out.println("1-Si");
+            System.out.println("2-No");
+            respuesta = sc.nextInt();
+
+            if (respuesta ==2) {
+                seleccionMenu = 2; 
+}
+            
+            
+            
+            } else if (seleccionMenu == 2) {
+                // Mensaje de salida----------------------------------------------------    
+                System.out.println("ha seleccionado salir del menu, que tenga un excelente dia.");
+            } else {
+                System.out.println("Opción no corresponde, intente de nuevamente");
+            }
+
+        }
+    }
+}
+
+ 
