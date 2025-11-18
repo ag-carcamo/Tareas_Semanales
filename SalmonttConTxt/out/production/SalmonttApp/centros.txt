@@ -1,0 +1,5 @@
+CD Mira Mar;pudahuel;1500
+CD Pez feliz;Melipilla;2500
+CD Sirena Asada;Talcahuano;800
+CD Lobo marino;Apoquindo;1100
+CD Luz Marina;El Quisco;1900
