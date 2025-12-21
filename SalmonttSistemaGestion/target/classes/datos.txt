@@ -1,0 +1,8 @@
+CLIENTE;Juan Perez;12345678;9;Austral;123;Puerto Montt;Los Lagos;1
+EMPLEADO;Maria Soto;98765432;1;Culebras verdes;392;Osorno;Region Metropolitana;Supervisor;1200000;Producción
+PROVEEDOR;Proveedor Sur;11111111;K;Ruta 5;100;Puerto Montt;Los Lagos;Insumos
+CLIENTE;Ana Torres;87654321;K;Camino Norte;456;Osorno;Los Lagos;2
+EMPLEADO;Carlos Diaz;11223344;5;Av. Central;321;Puerto Montt;Los Lagos;Operario;800000;Planta
+PRODUCTO;Cod01;Salmon Atlantico;5500
+PRODUCTO;Cod02;Filete Congelado;7200
+PRODUCTO;Cod03;Jurel Exportacion;2500
