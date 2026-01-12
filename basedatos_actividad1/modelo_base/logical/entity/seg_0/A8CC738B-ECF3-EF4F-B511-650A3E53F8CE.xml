@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8CC738B-ECF3-EF4F-B511-650A3E53F8CE" name="VUELO">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:05:47 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vuelo" id="DD319B3B-ADB9-7DE1-B169-033C2C00022A">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:05:56 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_salida" id="5D85F119-0481-37B9-E7FA-C71788295B48">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:05:57 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_llegada" id="AB95FD57-44A7-9E07-A146-73D4FBA9E0EE">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:06:15 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_salida" id="5B702615-007C-13B7-6288-66B1D45EE894">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:05:57 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3DE567C-A33F-54CD-D651-DC7DD83DA730" name="VUELO PK">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:06:07 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD319B3B-ADB9-7DE1-B169-033C2C00022A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C6B2A5C-398C-EA41-5D74-291A04AE9A38" name="EMPLEADO">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>A6985AB9-6AB1-3813-8C15-98D8EB54FED5</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="DDC407C0-1C21-A360-05FB-835C8B84EF31">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>DB761019-2182-7099-245B-65D976EB594C</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="DD8E143F-22FA-219F-B560-E438D49697E9">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>230FE627-C1E5-1ECF-91B2-0C0FC68524C7</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="40B7DC03-7059-7BAC-15E7-0BC8EE1E0486">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>856A68E5-F1CE-A97E-4577-FBFC7F1F9F8D</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="82A3904D-6C9A-94F5-59F9-600BFABCEED9">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>13CC90C5-67F2-EEF4-77CC-42931C8E20ED</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="D3F9138A-6CB7-BCAC-4F45-A86FCF24B98F">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>3CDB8FFC-1B94-9647-61EC-8472D2C8A787</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_celular" id="0EDB171A-0334-AFEA-B867-9D38A8922C4B">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>D994AC69-7C34-74CB-90D3-EB1FF5470048</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="54BC019E-60DA-0AF4-DA23-EB6F810EABCE">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>3DB4DDF1-77B6-03E7-D10F-B314FEC6F2D2</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="EED58729-68E3-D480-8D36-5121AC8DD1E1">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>BA8F70C8-F90E-632F-CA4A-C2B3D759268F</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="174FC57E-A7E0-7E98-1464-769E7E53DA94">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>E3805591-D561-9451-9955-1FE3DDA6A928</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo_base" id="024436BE-1082-B026-50CA-DAE3A3D58DE8">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>BF419664-2EF8-79CF-B6E1-880EE98D56FB</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="281E2A20-1673-A408-151D-FD0DDBD02D9B" name="EMPLEADO_PK">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>C71AFFF6-68BC-5C9D-0050-AB94D773B808</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDC407C0-1C21-A360-05FB-835C8B84EF31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
