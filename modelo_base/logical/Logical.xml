@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AA8DC1DD-90C4-B21D-F63E-6A79142D8923" mainViewID="8E44D4DD-39A7-BB2E-A916-179746E80E64">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 04:51:41 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

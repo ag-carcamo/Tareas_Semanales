@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D36F879-482C-4C97-BD25-26AA602A8F1F" name="PASAJERO">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:01:46 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pasajero" id="2CD42406-1636-F480-98D0-3CE079DFD063">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:01:52 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="92AD6E8A-3E47-7AEB-8A35-8B0BC326D0BE">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:02:00 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="FFE97095-831B-1955-2660-C0A7D59FC1CF">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:02:00 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="0C472A23-9D04-B04D-A0A2-F30EB9C46080">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:02:01 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="1A0F039E-CB80-F7F4-2B2F-1ACDB183119B">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:03:13 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="n_celular" id="C7742292-479A-89FB-35B3-005F1F68A18C">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:03:28 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="94FA6E42-78B0-401A-D253-C7B731A8DDA4">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:04:04 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45C2E181-1A74-C5F1-9F7F-47AE99AA1E4D" name="PASAJERO PK">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:02:27 UTC</createdTime>
+<ownerDesignName>modelo_base</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0A587C6-18EE-550A-5493-90C659A6B470" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CD42406-1636-F480-98D0-3CE079DFD063</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

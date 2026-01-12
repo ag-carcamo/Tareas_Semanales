@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC255AC3-91E4-D981-E8B2-5F567ED9ADA6" name="PASAJERO">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>3D36F879-482C-4C97-BD25-26AA602A8F1F</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pasajero" id="D1C1BC96-5DD0-7838-669C-E2827B395E70">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>2CD42406-1636-F480-98D0-3CE079DFD063</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E8B3FE99-27DF-7476-A771-754C82773096">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>92AD6E8A-3E47-7AEB-8A35-8B0BC326D0BE</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="C721B379-B416-31E2-278C-F3140A4B89D6">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>FFE97095-831B-1955-2660-C0A7D59FC1CF</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="1B353E6B-BBE7-20DF-E3DB-76B223A99EDA">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>0C472A23-9D04-B04D-A0A2-F30EB9C46080</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="69497647-F893-A9CD-7797-3CF52FBC5105">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>1A0F039E-CB80-F7F4-2B2F-1ACDB183119B</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_celular" id="FFCC1304-F174-96E1-E825-8FF5FE2D69B1">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>C7742292-479A-89FB-35B3-005F1F68A18C</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="4EB9C341-6DA3-7CF1-0760-BA94D45D2CDD">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>94FA6E42-78B0-401A-D253-C7B731A8DDA4</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFCF4D8A-B2C8-FDFB-E162-D858DA94C0B8" name="PASAJERO_PK">
+<createdBy>carca</createdBy>
+<createdTime>2026-01-12 05:10:37 UTC</createdTime>
+<generatorID>45C2E181-1A74-C5F1-9F7F-47AE99AA1E4D</generatorID>
+<ownerDesignName>modelo_base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1C1BC96-5DD0-7838-669C-E2827B395E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
