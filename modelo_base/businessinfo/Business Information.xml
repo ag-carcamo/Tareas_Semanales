@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="5FD91976-9B7A-5395-6F47-216A770FE43D">
-<createdBy>carca</createdBy>
-<createdTime>2026-01-12 04:51:41 UTC</createdTime>
-<ownerDesignName>modelo_base</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
